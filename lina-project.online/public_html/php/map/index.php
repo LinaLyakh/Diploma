@@ -1,0 +1,76 @@
+<DOCTYPE html>
+<html>
+<head>
+    <title>Map</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/backbone.css">
+    
+</head>    
+<body>
+    
+    
+    
+    <!--  Left Side Menu  -->
+    <div class="leftSide">
+        <form>
+            <!-- Destination form -->
+            <div class="form-group">
+                <input type="From" class="form-control" id="To" placeholder="из">
+            </div>
+
+            <div class="form-group">
+                <input type="To" class="form-control" id="From" placeholder="в">
+            </div>
+
+            <a id="start" onclick="start()">Найти</a>
+            
+            <!-- Transport modes -->
+            <div class="btn-group" role="group">    
+                <label>
+                    <input type="radio" name="transport" value="car" checked/>
+                    <img src="media/car.png">
+                </label>
+                
+                <label>
+                    <input type="radio" name="transport" value="bike"/>
+                    <img src="media/bike.png">
+                </label>  
+
+                <label>
+                    <input id="fb3" type="radio" name="transport" value="pedestrian"/>
+                    <img src="media/pedestrian.png">
+                </label>
+                
+            </div>
+        </form>
+        
+    
+        
+        <!--  Path Details - steps, times, distances -->
+        <div class="response">
+            <div id="details"></div>
+        </div>
+        
+    </div>
+    
+    
+    
+    <!--  Right Side Map  -->
+    <div class="rightSide">
+        <canvas id="map" width="800" height="800"></canvas>
+        <canvas id="map2" width="800" height="800"></canvas>
+    </div>
+
+    
+    
+    
+    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="js/Path.js"></script>
+    <script src="js/map.js"></script>
+</body>        
+</html>
+    
+    
+    

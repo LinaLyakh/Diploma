@@ -1,0 +1,59 @@
+/*login*/
+
+/* navbar */
+.navbar{
+    background: transparent !important;
+}
+.navbar-collapse{
+    justify-content: center;
+}
+.mr-auto, .mx-auto {
+    margin-right: 0!important;
+}
+.nav-link, .navbar-brand{
+    color: #100437 !important;
+}
+.nav-link{
+    margin: 0 3px 0 3px;
+}
+.default-color {
+    background-color: transparent !important;
+}
+.btn-outline-white{
+    background-color: #100437 !important;
+}
+.navbar.navbar-dark .navbar-toggler {
+    color: #100437;
+}
+.navbar.navbar-dark .navbar-toggler-icon{
+    cursor: pointer;
+    background-image: url(../img/Effect.png)
+}
+.btn-outline-white:hover{
+    color: #100437 !important;
+}
+.nav-link:hover{
+    font-weight: 700;
+}
+.dropdown-item:hover{
+    background-color: #100437;
+    color: white !important;
+}
+
+/* table */
+p{
+    text-align: center;
+}
+.black {
+    background-color: #100437 !important;
+}
+.card{
+    margin-top: 30px;
+}
+a:hover{
+    font-weight: 700;
+    color: #100437;
+}
+th, tr, td{
+    text-align: center;
+}
